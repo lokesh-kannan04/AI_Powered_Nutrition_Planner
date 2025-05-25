@@ -1,0 +1,163 @@
+/* General Body Styling */
+body {
+    background: url('images/black.jpg') center no-repeat;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Container */
+.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    font-weight: 600;
+    display: block;
+    margin-top: 15px;
+    color: #444;
+}
+
+/* Input Fields */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border 0.3s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
+    outline: none;
+}
+
+/* Textarea */
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Checkbox and Radio Inputs */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: #007bff;
+}
+
+/* Checkbox Group */
+.checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 8px 0;
+    color: #555;
+}
+
+/* Options */
+.diet-options,
+.water-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background: #f9f9f9;
+}
+
+/* Submit Button */
+.submit-button {
+    width: 100%;
+    padding: 14px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.submit-button:hover {
+    background: #218838;
+    transform: scale(1.03);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .form-container {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .diet-options,
+    .water-options {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
+
+/* Form Sections */
+.form-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
