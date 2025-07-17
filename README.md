@@ -59,4 +59,4 @@ A dedicated WhatsApp chatbot allows users to log their food intake without using
 ## Demo Screenshots
 
 ### 1. Flow Diagram
-![Flow Diagram](./screenshots/Picture2.png)
+![Flow Diagram](./screenshots/Picture1.png)
