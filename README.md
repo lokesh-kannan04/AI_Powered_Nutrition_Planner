@@ -1,5 +1,5 @@
-# AI-Powered Nutrient Deficiency Detection and Improvement  
-### With Food Suggestions and Goal Tracking
+# AI-Powered Nutrient Deficiency Detection and Improvement with Food Suggestions and Goal Tracking
+
 
 ---
 
