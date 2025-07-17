@@ -18,7 +18,11 @@ APNP/
 ├── assets/
 └── components/
 ```
+---
 
+## Demo Video
+
+https://drive.google.com/file/d/17nf1s8ljWITj304VAytsIYH42l7L4I_e/view
 
 ---
 
@@ -56,6 +60,8 @@ APNP/
 
 A dedicated WhatsApp chatbot allows users to log their food intake without using the website. It sends daily reminders (Morning, Noon, Evening, Night) and updates the user's nutritional progress based on the foods they report.
 
+---
+
 ## Demo Screenshots
 
 ### 1. Flow Diagram
@@ -87,3 +93,13 @@ A dedicated WhatsApp chatbot allows users to log their food intake without using
 
 ### 10. LLM Comparision - Accuracy in detecting Deficiency by different LLMs for same Person. Comparision on how exactly LLMs detect the actual deficiency of real person.
 ![LLM](./screenshots/Picture10.png)
+
+---
+
+## Conclusion
+
+APNP is more than just a nutrition tracker — it's an intelligent system built to personalize health and wellness using modern AI capabilities. By analyzing symptoms, customizing daily nutrient goals, and providing interactive chatbot support, it empowers users to take control of their nutritional health effortlessly.
+
+With a seamless web interface and convenient WhatsApp integration, APNP bridges the gap between clinical insights and everyday food choices, making it a practical and innovative solution for anyone aiming to improve their diet and overall well-being.
+
+---
