@@ -60,3 +60,30 @@ A dedicated WhatsApp chatbot allows users to log their food intake without using
 
 ### 1. Flow Diagram
 ![Flow Diagram](./screenshots/Picture1.png)
+
+### 2. User Registration, Symptomp based Deficiency Test
+![Test](./screenshots/Picture2.jpg)
+
+### 3. Possible Deficiencies after Test
+![Deficiencies](./screenshots/Picture3.jpg)
+
+### 4. Generating Goal for Tracking
+![Goal](./screenshots/Picture4.jpg)
+
+### 5. Chatbot 1 - Food Suggester
+![Food](./screenshots/Picture5.jpg)
+
+### 6. Chatbot 2 - Nutritional Breakdown (eg: 2 Dosa)
+![Nutrition](./screenshots/Picture6.png)
+
+### 7. Chatbot 3 - Goal Tracker
+![Tracker](./screenshots/Picture7.jpg)
+
+### 8. Whatsapp Chatbot
+![Whatsapp](./screenshots/Picture8.jpg)
+
+### 9. Goal Tracking ( From 7 and 8)
+![Tracking](./screenshots/Picture9.png)
+
+### 10. LLM Comparision - Accuracy in detecting Deficiency by different LLMs for same Person. Comparision on how exactly LLMs detect the actual deficiency of real person.
+![LLM](./screenshots/Picture10.png)
