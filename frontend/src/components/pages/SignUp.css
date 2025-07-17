@@ -1,0 +1,211 @@
+.signup-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), /* Dark overlay */
+    url("/images/pexels-adonyi-foto-1414651.jpg") center center/cover no-repeat;
+  background-color: #f8f9fa; /* Fallback color */
+}
+
+.signup-hero {
+  background: linear-gradient(135deg, #28a745, #17a2b8);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.signup-hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.signup-hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.signup-hero-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.signup-container {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+}
+
+.signup-main {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.signup-card {
+  flex: 1;
+  min-width: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.signup-card-header {
+  padding: 1.5rem 2rem;
+  background: #2c3e50;
+  color: white;
+}
+
+.signup-card-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.signup-card-header p {
+  margin: 0.5rem 0 0;
+  opacity: 0.9;
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.signup-benefits-section {
+  flex: 1;
+  min-width: 400px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  min-height: 700px;
+}
+
+.signup-benefits-content {
+  width: 100%;
+}
+
+.signup-benefits-title {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+.signup-benefits-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #28a745, #17a2b8);
+  border-radius: 2px;
+}
+
+.signup-benefits-image {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.signup-benefits-image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+
+.signup-benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+}
+
+.signup-benefit-item {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.8rem;
+  background: rgba(40, 167, 69, 0.1);
+  border-radius: 8px;
+  font-weight: 500;
+  color: #2c3e50;
+  transition: transform 0.2s ease;
+}
+
+.signup-benefit-item:hover {
+  transform: translateX(5px);
+}
+
+.signup-benefit-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  width: 40px;
+  height: 40px;
+  background: #28a745;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-features-section {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+@media (max-width: 992px) {
+  .signup-main {
+      flex-direction: column;
+  }
+  
+  .signup-card,
+  .signup-benefits-section {
+      min-width: 100%;
+  }
+  
+  .signup-benefits-section {
+      order: -1;
+      margin-bottom: 2rem;
+      min-height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .signup-hero {
+      padding: 3rem 1rem;
+  }
+  
+  .signup-hero-title {
+      font-size: 2rem;
+  }
+  
+  .signup-hero-subtitle {
+      font-size: 1rem;
+  }
+  
+  .signup-container {
+      padding: 1rem;
+  }
+  
+  .signup-card-header {
+      padding: 1rem 1.5rem;
+  }
+  
+  .signup-card-header h2 {
+      font-size: 1.5rem;
+  }
+  
+  .signup-benefits-title {
+      font-size: 1.5rem;
+  }
+}

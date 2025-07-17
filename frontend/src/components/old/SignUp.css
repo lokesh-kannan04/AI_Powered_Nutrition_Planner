@@ -1,0 +1,30 @@
+.form{
+    font-size: 20px;
+    width: 500px;
+}
+
+input, select, button{
+    height: 35px;  /* Adjust height as needed */
+    padding: 5px; /* Adjust padding for better spacing */
+    font-size: 18px; /* Increase text size if needed */
+}
+
+
+.SignUp{
+    background: url('/images/pexels-adonyi-foto-1414651.jpg') center center/cover no-repeat; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+    margin-top: 0%;
+    padding-top: 0%;
+}
