@@ -1,4 +1,4 @@
-# AI-Powered Nutrient Deficiency Detection and Improvement with Food Suggestions and Goal Tracking
+# AI-Powered Nutrient Deficiency Detection and Improvement with Food Suggestions and Goal Tracking (APNP - AI Powered Nutrition Planner)
 
 
 ---
