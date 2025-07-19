@@ -27,6 +27,12 @@ https://drive.google.com/file/d/17nf1s8ljWITj304VAytsIYH42l7L4I_e/view
 
 ---
 
+### 1. Flow Diagram
+
+![Flow Diagram](./screenshots/Picture1.png)
+
+---
+
 ## Project Description
 
 **APNP** is an AI-powered system that analyzes user-reported symptoms to identify potential nutritional deficiencies. It provides personalized food recommendations, daily nutrient goals, and goal tracking, aiming to guide users toward a healthier lifestyle.
@@ -65,34 +71,31 @@ A dedicated WhatsApp chatbot allows users to log their food intake without using
 
 ## Demo Screenshots
 
-### 1. Flow Diagram
-![Flow Diagram](./screenshots/Picture1.png)
-
-### 2. User Registration, Symptomp based Deficiency Test
+### 1. User Registration, Symptomp based Deficiency Test
 ![Test](./screenshots/Picture2.jpg)
 
-### 3. Possible Deficiencies after Test
+### 2. Possible Deficiencies after Test
 ![Deficiencies](./screenshots/Picture3.jpg)
 
-### 4. Generating Goal for Tracking
+### 3. Generating Goal for Tracking
 ![Goal](./screenshots/Picture4.jpg)
 
-### 5. Chatbot 1 - Food Suggester
+### 4. Chatbot 1 - Food Suggester
 ![Food](./screenshots/Picture5.jpg)
 
-### 6. Chatbot 2 - Nutritional Breakdown (eg: 2 Dosa)
+### 5. Chatbot 2 - Nutritional Breakdown (eg: 2 Dosa)
 ![Nutrition](./screenshots/Picture6.png)
 
-### 7. Chatbot 3 - Goal Tracker
+### 6. Chatbot 3 - Goal Tracker
 ![Tracker](./screenshots/Picture7.jpg)
 
-### 8. Whatsapp Chatbot
+### 7. Whatsapp Chatbot
 ![Whatsapp](./screenshots/Picture8.jpg)
 
-### 9. Goal Tracking ( From 7 and 8)
+### 8. Goal Tracking ( From 7 and 8)
 ![Tracking](./screenshots/Picture9.png)
 
-### 10. LLM Comparision - Accuracy in detecting Deficiency by different LLMs for same Person. Comparision on how exactly LLMs detect the actual deficiency of real person.
+### 9. LLM Comparision - Accuracy in detecting Deficiency by different LLMs for same Person. Comparision on how exactly LLMs detect the actual deficiency of real person.
 ![LLM](./screenshots/Picture10.png)
 
 ---
