@@ -1,0 +1,51 @@
+from api.models import NutritionalGoal
+for goal in NutritionalGoal.objects.all():
+print(f"\n[ID: {goal.id}] User: {goal.user.name}")
+print(f"Calories: {goal.goal_calories} (Taken: {goal.calories_taken})")
+print(f"Protein: {goal.protein_goal} (Taken: {goal.protein_taken})")
+print(f"Fat: {goal.fat_goal} (Taken: {goal.fat_taken})")
+print(f"Carbs: {goal.carbs_goal} (Taken: {goal.carbs_taken})")
+print(f"Fiber: {goal.fiber_goal} (Taken: {goal.fiber_taken})")
+if goal.micro1_name:
+print(f"Micro 1: {goal.micro1_name} - {goal.micro1_goal} (Taken: {goal.micro1_taken})")
+if goal.micro2_name:
+print(f"Micro 2: {goal.micro2_name} - {goal.micro2_goal} (Taken: {goal.micro2_taken})")
+if goal.micro3_name:
+print(f"Micro 3: {goal.micro3_name} - {goal.micro3_goal} (Taken: {goal.micro3_taken})")
+print(f"Last Updated: {goal.updated_at}")
+
+from api.models import MonthlyGoal
+
+for goal in MonthlyGoal.objects.all():
+print(f"\n[ID: {goal.id}] User: {goal.user.name}")
+print(f"Calories: {goal.goal_calories} (Taken: {goal.calories_taken})")
+print(f"Protein: {goal.protein_goal} (Taken: {goal.protein_taken})")
+print(f"Fat: {goal.fat_goal} (Taken: {goal.fat_taken})")
+print(f"Carbs: {goal.carbs_goal} (Taken: {goal.carbs_taken})")
+print(f"Fiber: {goal.fiber_goal} (Taken: {goal.fiber_taken})")
+if goal.micro1_name:
+print(f"Micro 1: {goal.micro1_name} - {goal.micro1_goal} (Taken: {goal.micro1_taken})")
+if goal.micro2_name:
+print(f"Micro 2: {goal.micro2_name} - {goal.micro2_goal} (Taken: {goal.micro2_taken})")
+if goal.micro3_name:
+print(f"Micro 3: {goal.micro3_name} - {goal.micro3_goal} (Taken: {goal.micro3_taken})")
+print(f"Created At: {goal.created_at}")
+print(f"Last Updated: {goal.updated_at}")
+
+from django.contrib.sessions.models import Session
+
+# Delete all sessions
+
+Session.objects.all().delete()
+print("All users have been logged out.")
+
+from api.models import FormData
+
+phone = "9150109948" # Replace with the specific phone number
+FormData.objects.filter(phone=phone).delete()
+
+from api.models import FormData
+
+phone = "9944420277" # Replace with the specific phone number
+FormData.objects.filter(phone=phone).delete()
+
